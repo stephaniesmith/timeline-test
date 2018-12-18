@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+.timeline {
+  width: 90vw;
+  margin: 5em auto auto auto;
+  display: grid;
+  grid-template-columns: 1fr 15%;
+  grid-template-rows: auto;
+  grid-gap: 1.5em;
+  border-right: 4px solid white;
+}
+
+.event {
+  background-color: white;
+  color: black;
+}
+
+.event img {
+  max-width: 100%;
+}
+
+.marker {
+  margin-top: 1.5em;
+  width: 35px;
+  height: 4px;
+  background-color: white;
+}
